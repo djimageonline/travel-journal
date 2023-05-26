@@ -31,13 +31,32 @@ body{
 .card-container {
   margin: 3em auto 1em auto;
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 471px;
   height: 168;
   padding: .2em;
 }
 
 .img-container {
-  width: 100%;
+  width: 125px;
+  height: 168px;
+}
+
+.img {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  font-size: .8rem;
+}
+
+.top a {
+  margin-left: 15px;
 }
 
 .text-container {
@@ -47,6 +66,31 @@ body{
 .text-container .txt {
   font-size: .7rem;
 }
+
+.title {
+  margin: .5em 0;
+}
+
+.date {
+  margin-bottom: .7em;
+  font-size: .7rem;
+  font-weight: bold;
+}
+
+.location {
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.google {
+  color: #918E9B;
+
+}
+
+.txt {
+  line-height: 1.3;
+}
+
 
 .line {
   width: 471px;
