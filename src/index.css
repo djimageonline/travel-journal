@@ -23,7 +23,7 @@ body{
 }
 
 .nav p {
-  font-size: 1.4rem;
+  font-size: .9rem;
 }
 
 /* Card */
@@ -69,6 +69,10 @@ body{
 
 .title {
   margin: .5em 0;
+}
+
+.target {
+  margin-right: 5px;
 }
 
 .date {

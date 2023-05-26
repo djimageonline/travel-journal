@@ -13,7 +13,10 @@ export function Card(props) {
         </div>
         <div className="text-container">
           <div className="top">
-            <p className="location">{props.item.location}</p>
+            <p className="location">
+              <img src="src/assets/redTarget.png" className="target"></img>
+              {props.item.location}
+            </p>
             <a className="google" href={props.item.googleMapsUrl}>
               {" "}
               View on google maps
