@@ -1,7 +1,8 @@
 export function Nav() {
   return (
     <div className="nav">
-      <h2>my travel journal</h2>
+      <img src="src/assets/world.png" />
+      <p>my travel journal</p>
     </div>
   );
 }

@@ -1,14 +1,55 @@
 *, #root { 
   margin: 0;
+  box-sizing: border-box;
 }
 
 body{
   margin: 0;
-}
+  font-family: 'Inter', sans-serif;}
 
 .nav {
   margin: 0;
   background-color: #F55A5A;
   color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+}
+
+.nav img {
+  margin-right: 10px;
+}
+
+.nav p {
+  font-size: 1.4rem;
+}
+
+/* Card */
+
+.card-container {
+  margin: 3em auto 1em auto;
+  display: flex;
+  width: 471px;
+  height: 168;
+  padding: .2em;
+}
+
+.img-container {
+  width: 100%;
+}
+
+.text-container {
+  margin-left: 1.5em;
+}
+
+.text-container .txt {
+  font-size: .7rem;
+}
+
+.line {
+  width: 471px;
+  margin: 2em auto;
 }
 
